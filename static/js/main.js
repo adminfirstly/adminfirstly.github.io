@@ -693,8 +693,8 @@
 
     // var apipath = 'http://localhost:8000/api/store/collection/retrieve-a-product-collection'
     // var docpath = 'http://localhost:3000/tutorial/set-up-your-development-environment'
-    var apipath = 'https://api.adminfirstly.com/api/admin/auth/authenticate-a-user'
-    var docpath = 'https://doc.adminfirstly.com/tutorial/set-up-your-development-environment'
+    var apipath = 'http://others.adminfirstly.com/api/admin/auth/authenticate-a-user'
+    var docpath = 'http://others.adminfirstly.com/tutorial/set-up-your-development-environment'
     
     //https://doc.adminfirstly.com/tutorial/creating-your-medusa-server
     function openApi(){
