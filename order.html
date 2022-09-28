@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adminfirstly JS</title>
+
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <!--====== Slick Slider ======-->
+    <link rel="stylesheet" href="static/css/slick.min.css">
+    <!--====== Magnific ======-->
+    <link rel="stylesheet" href="static/css/magnific-popup.min.css">
+    <!--====== Nice Select ======-->
+    <link rel="stylesheet" href="static/css/nice-select.min.css">
+    <!--====== Animate CSS ======-->
+    <link rel="stylesheet" href="static/css/animate.min.css">
+    <!--====== Font Awesome ======-->
+    <link rel="stylesheet" href="static/css/all.min.css">
+    <!--====== Flaticon ======-->
+    <link rel="stylesheet" href="static/css/flaticon.css">
+    <!--====== Spacing Css ======-->
+    <link rel="stylesheet" href="static/css/spacing.min.css">
+    <!--====== Main Css ======-->
+    <link rel="stylesheet" href="static/css/style.css">
+    <!--====== Responsive CSS ======-->
+    <link rel="stylesheet" href="static/css/responsive.css">
+    <link rel="stylesheet" href="static/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="static/layer/theme/default/layer.css">
+</head>
+
+<body>
+    <!--======= Start Preloader =======-->
+    <div id="preloader">
+        <img class="preloader-image" width="180" src="static/picture/logo-dark.svg" alt="preloader">
+    </div>
+    <!--====== Start Header ======-->
+    <header class="template-header navbar-center sticky-header">
+        <div class="container-fluid container-1430">
+            <div class="header-inner">
+                <div class="header-left">
+                    <div class="branding-and-language-selection">
+                        <div class="brand-logo">
+                            <a href="javascript:void(0)">
+                                <img src="static/picture/logo-1.png" alt="logo">
+                            </a>
+                        </div>
+                        <!-- <div class="language-selection d-none d-md-block">
+                            <select name="language">
+                                <option value="en">English</option>
+                                <option value="bn">Bangla</option>
+                            </select>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="header-center">
+                    <nav class="nav-menu d-none d-xl-block">
+                        <ul>
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="about.html">About</a>
+                            </li>
+                            
+                            <li>
+                                <a href="javascript:openApi()">Document</a>
+                            </li>
+                            <li>
+                                <a href="pricing.html">Price</a>
+                            </li>
+                            <li class="nav-signin">
+                                <a href="sign-in.html">Sign In</a>
+                            </li>
+                            <li class="nav-signup">
+                                <a href="sign-up.html">Sign Up</a>
+                            </li>
+                            <li class="user-profile">
+                                <i class="far fa-user"></i> <a href="order.html">sd sdfp </a> 
+                            </li>
+                            <li class="sign-out" >
+                                <i class="fa fa-sign-out"></i> <a href="javascript:void(0)">log out</a> 
+                            </li>
+                            
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header-right">
+                    <ul class="header-extra">
+                        <!-- <li class="d-none d-sm-block">
+                            <a href="#" data-toggle="modal" data-target="#search-modal" class="search-btn search-border-right">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </li> -->
+                        
+                        <li class="d-none d-lg-block">
+                            <a href="javascript:openDoc()" class="template-btn">
+                                Get Started <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </li>
+                        <li class="d-xl-none">
+                            <a href="#" class="navbar-toggler">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Start Mobile Slide Menu -->
+        <div class="mobile-slide-panel">
+            <div class="panel-overlay"></div>
+            <div class="panel-inner">
+                <div class="mobile-logo">
+                    <a href="">
+                        <img src="static/picture/logo-1.png" alt="Landio">
+                    </a>
+                </div>
+                <nav class="mobile-menu">
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        
+                        <li>
+                            <a href="javascript:openApi()">Document</a>
+                        </li>
+                        <li>
+                            <a href="pricing.html">Price</a>
+                        </li>
+                        <li class="nav-signin">
+                            <a href="sign-in.html">Sign In</a>
+                        </li>
+                        <li class="nav-signup">
+                            <a href="sign-up.html">Sign Up</a>
+                        </li>
+                        <li class="user-profile">
+                            <i class="far fa-user"></i> <a href="order.html">sd sdfp </a> 
+                        </li>
+                        <li class="sign-out" >
+                            <i class="fa fa-sign-out"></i> <a href="javascript:void(0)">log out</a> 
+                        </li>
+                        
+                    </ul>
+                </nav>
+                <a href="#" class="panel-close">
+                    <i class="fal fa-times"></i>
+                </a>
+            </div>
+        </div>
+        <!-- End Mobile Slide Menu -->
+    </header>
+    <!--====== End Header ======-->
+    <!--======= End Preloader =======-->
+    <div id="app">
+        <table class="table">
+            <thead>
+              <tr>
+                <th style="text-align: center;">#</th>
+                <th style="text-align: center;">orderID</th>
+                <th style="text-align: center;">Date</th>
+                <th style="text-align: center;">amount</th>
+                <th style="text-align: center;">email</th>
+ 
+                <th style="text-align: center;">status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-if="orderatry.length==0">
+                <td colspan="6" style="text-align: center;">You don't have any instances.</td>
+              </tr>
+              <tr v-if="orderatry.length!=0" v-for = "(item, key, index) in orderatry">
+                <td style="text-align: center;">{{key+1}}</td>
+                <td style="text-align: center;">{{item.order_id}}</td>
+                <td style="text-align: center;">{{item.created_at}}</td>
+                <td style="text-align: center;">{{item.amount}}</td>
+                <td style="text-align: center;">{{item.user.email}}</td>
+                <td style="text-align: center;">{{item.status}}</td>
+              
+              </tr>
+              <tr v-if="orderatry.length!=0">
+                <td colspan="6" style="text-align: center;color:rgb(88, 147, 0)">If you have any questions about the order or need a refund,please contact us by email( hello@adminfirstly.com ) We will reply you within 12 hours.</td>
+              </tr>
+               
+
+
+            </tbody>
+        </table>
+    </div>
+   
+ 
+    <a href="#" class="back-to-top" id="scroll-top">
+        <i class="far fa-angle-up"></i>
+    </a>
+    <!--====== End Scroll To Top ======-->
+
+    <!--====== Start Footer ======-->
+    <footer class="template-footer footer-with-image p-t-80 p-b-30">
+        <div class="container">
+            <div class="footer-widgets">
+                <div class="row">
+                    <!-- Single Footer Widget -->
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="widget text-block-widget">
+                            <img src="static/picture/logo-1.png" alt="footer logo">
+                        </div>
+                    </div>
+                    <!-- Single Footer Widget -->
+                    
+                    <!-- Single Footer Widget -->
+                    
+                    <!-- Single Footer Widget -->
+                    <div class="col-lg-9 col-md-6 col-sm-6">
+                        <div class="widget social-widget pl-xl-5">
+                            <!-- <h5 class="widget-title">Follow On</h5>
+                            <ul class="social-links">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            </ul> -->
+                            
+                            <p class="copyright-text m-t-20">Copyright &copy; 2022.Adminfirstly All rights reserved.</p>
+                            <h4 class="m-t-20">Catch us on hello@adminfirstly.com</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--====== End Footer ======-->
+
+    <!--====== Jquery ======-->
+    <script src="static/js/jquery-3.6.0.min.js"></script>
+    <!--====== Bootstrap ======-->
+    <script src="static/js/bootstrap.min.js"></script>
+    <!--====== Slick slider ======-->
+    <script src="static/js/slick.min.js"></script>
+    <!--====== Magnific ======-->
+    <script src="static/js/jquery.magnific-popup.min.js"></script>
+    <!--====== Isotope Js ======-->
+    <script src="static/js/isotope.pkgd.min.js"></script>
+    <!--====== Inview ======-->
+    <script src="static/js/jquery.inview.min.js"></script>
+    <!--====== Nice Select ======-->
+    <script src="static/js/jquery.nice-select.min.js"></script>
+
+    <script src="static/swiper/js/swiper.min.js"></script>
+    <!--====== Wow ======-->
+    <script src="static/js/wow.min.js"></script>
+    <script src="static/layer/layer.js"></script>
+    <!--====== Main JS ======-->
+    <script src="static/js/main.js"></script>
+    <script src="static/js/vue.js"></script>
+    <script>
+        new Vue({
+            el:'#app',
+            data:{
+                orderatry:[]
+            },
+            mounted:function(){
+                window.checklog2();
+                this.getallorder();
+            },
+            methods:{
+                getallorder(){
+                    var obj = Util.get('adminfirstly_user');
+                    var self =this;
+                    if(obj!=null){
+                        $.ajax({
+                            type:"POST",
+                            url: "https://front.adminfirstly.com/getorderlist",
+                            dataType: "JSON",   
+                            data: { 
+                                "storeid": obj.id
+                            },  
+                            success: function (ret) {                  
+                                console.log('ok',ret);
+                                self.orderatry = ret.response;
+                            },
+                            error: function (ret){
+                                console.log('err',ret);
+                            }
+                        });  
+                    }
+                }
+            }
+        });
+       
+        
+ 
+      
+        
+    </script>
+</body>
+
+</html>
