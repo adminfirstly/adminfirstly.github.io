@@ -32,7 +32,7 @@
 </head>
 
 <body>
-<!-- Cookie Consent by TermsFeed https://www.TermsFeed.com -->
+  <!-- Cookie Consent by TermsFeed https://www.TermsFeed.com -->
 <script type="text/javascript" src="./static/js/cookie-consent.js" charset="UTF-8"></script>
 <script type="text/javascript" charset="UTF-8">
 document.addEventListener('DOMContentLoaded', function () {
@@ -51,6 +51,7 @@ cookieconsent.run({"notice_banner_type":"interstitial","consent_type":"express",
 <!-- Below is the link that users can use to open Preferences Center to change their preferences. Do not modify the ID parameter. Place it where appropriate, style it as needed. -->
 
 <a href="#" id="open_preferences_center">Update cookies preferences</a>
+
     <!--======= Start Preloader =======-->
     <div id="preloader">
         <img class="preloader-image" width="180" src="static/picture/logo-dark.svg" alt="preloader">
@@ -150,7 +151,7 @@ cookieconsent.run({"notice_banner_type":"interstitial","consent_type":"express",
                         </li>
                         
                         <li>
-                            <a href="services.html">Document</a>
+                            <a href="javascript:openApi()">Document</a>
                         </li>
                         <li>
                             <a href="pricing.html">Price</a>
@@ -179,118 +180,103 @@ cookieconsent.run({"notice_banner_type":"interstitial","consent_type":"express",
     </header>
     <!--====== End Header ======-->
     <!--======= End Preloader =======-->
-    <section class="pricing-section p-t-130 p-b-130">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <div class="common-heading tagline-boxed m-b-70 text-center">
-                        <span class="tagline">Our Pricing Plan</span>
-                        <h2 class="title">Choose the best software package for your e-commerce</h2>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Pricing Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-6 col-sm-8 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-                    <div class="pricing-table m-t-30">
-                        <div class="plan-title-area">
-                            <h5 class="plan-name">1 day authorization</h5>
-                            <!-- <img src="static/picture/plan-icon.png" alt="Plan icon" class="plan-icon"> -->
-                            <!-- <svg class="plan-shape">
-                                <path class="blob" d="M675.762,6280.79c27.519-33.95,38.271-67.86,19.8-107.55-44.452-95.53-192.815-73.8-213.55-32.81-19.531,38.6,77.819,48.49,80.344,152.05C563.555,6341.55,636.194,6329.6,675.762,6280.79Z" transform="translate(-479.406 -6105.56)"></path>
-                            </svg> -->
-                        </div>
-                        <div class="plan-cost">
-                            <span class="currency">$</span>
-                            <span class="price">5.00</span>
-                            <span class="plan-type">/ day</span>
-                        </div>
-                        <ul class="plan-feature">
-                            <li>Background e-commerce core development package</li>
-                            <li>Automatically initialize PostgreSQL</li>
-                            <li>Maintenance support</li>
-                            <li>One month authorization</li>
-                        </ul>
-                        <!-- 773825 -->
-                        <a href="javascript:void(0)" class="template-btn sel-plane" data-type="773825">Select Plan <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-8 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-                    <div class="pricing-table pricing-secondary-1 m-t-30">
-                        <div class="plan-title-area">
-                            <h5 class="plan-name">1 week authorization</h5>
-                            <!-- <img src="static/picture/plan-icon.png" alt="Plan icon" class="plan-icon"> -->
-                            <!-- <svg class="plan-shape">
-                                <path class="blob" d="M675.762,6280.79c27.519-33.95,38.271-67.86,19.8-107.55-44.452-95.53-192.815-73.8-213.55-32.81-19.531,38.6,77.819,48.49,80.344,152.05C563.555,6341.55,636.194,6329.6,675.762,6280.79Z" transform="translate(-479.406 -6105.56)"></path>
-                            </svg> -->
-                        </div>
-                        <div class="plan-cost">
-                            <span class="currency">$</span>
-                            <span class="price">15.00</span>
-                            <span class="plan-type">/ week</span>
-                        </div>
-                        <ul class="plan-feature">
-                            <li>Background e-commerce core development package</li>
-                            <li>Automatically initialize PostgreSQL</li>
-                            <li>Maintenance support</li>
-                            <li>One week authorization</li>
-                        </ul>
-                        <!-- 774045 -->
-                        <a href="javascript:void(0)" class="template-btn sel-plane"  data-type="774045">Select Plane<i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-8 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-                    <div class="pricing-table m-t-30">
-                        <div class="plan-title-area">
-                            <h5 class="plan-name">1 month authorization</h5>
-                            <!-- <img src="static/picture/plan-icon.png" alt="Plan icon" class="plan-icon"> -->
-                            <!-- <svg class="plan-shape">
-                                <path class="blob" d="M675.762,6280.79c27.519-33.95,38.271-67.86,19.8-107.55-44.452-95.53-192.815-73.8-213.55-32.81-19.531,38.6,77.819,48.49,80.344,152.05C563.555,6341.55,636.194,6329.6,675.762,6280.79Z" transform="translate(-479.406 -6105.56)"></path>
-                            </svg> -->
-                        </div>
-                        <div class="plan-cost">
-                            <span class="currency">$</span>
-                            <span class="price">35.00</span>
-                            <span class="plan-type">/ Monthly</span>
-                        </div>
-                        <ul class="plan-feature">
-                            <li>Background e-commerce core development package</li>
-                            <li>Automatically initialize PostgreSQL</li>
-                            <li>Maintenance support</li>
-                            <li>One month authorization</li>
-                        </ul>
-                        <a href="javascript:void(0)" class="template-btn sel-plane" data-type="774046">Select Plan <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-8 wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
-                    <div class="pricing-table pricing-secondary-1 m-t-30">
-                        <div class="plan-title-area">
-                            <h5 class="plan-name">1 year authorization</h5>
-                            <!-- <img src="static/picture/plan-icon.png" alt="Plan icon" class="plan-icon"> -->
-                            <!-- <svg class="plan-shape">
-                                <path class="blob" d="M675.762,6280.79c27.519-33.95,38.271-67.86,19.8-107.55-44.452-95.53-192.815-73.8-213.55-32.81-19.531,38.6,77.819,48.49,80.344,152.05C563.555,6341.55,636.194,6329.6,675.762,6280.79Z" transform="translate(-479.406 -6105.56)"></path>
-                            </svg> -->
-                        </div>
-                        <div class="plan-cost">
-                            <span class="currency">$</span>
-                            <span class="price">200.00</span>
-                            <span class="plan-type">/ yearly</span>
-                        </div>
-                        <ul class="plan-feature">
-                            <li>Background e-commerce core development package</li>
-                            <li>Automatically initialize PostgreSQL</li>
-                            <li>Maintenance support</li>
-                            <li>one year authorization</li>
-                        </ul>
-                        <a href="javascript:void(0)" class="template-btn sel-plane"   data-type="774047">Select Plan <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section class="terms-container">
+        <h1>Adminfirstly Terms of Service</h1>
+        <p><strong>Effective Date:</strong> April 9, 2025</p>
+    
+        <h2>1. Parties to and Acceptance of the Agreement</h2>
+        <p>
+            <strong>1.1</strong> This Agreement is entered into between you (the User) and Adminfirstly (a sole proprietor) regarding the use of the Adminfirstly.com website (hereinafter referred to as "the Platform") and related services.
+        </p>
+        <p>
+            <strong>1.2</strong> By accessing, registering, or using the Platform, you acknowledge that you have read and agree to be bound by this Agreement and its attachments (including the Privacy Policy, Refund Policy, etc.). If you do not possess full legal capacity, you must use the Platform under the guidance of a legal guardian.
+        </p>
+    
+        <h2>2. Service Content</h2>
+        <h3>2.1 Scope of Functionality</h3>
+        <ul>
+            <li>Users may register an account to purchase products, services, or subscription plans (either one-time or recurring payments).</li>
+            <li>Subscription plans will automatically renew by default; users must manually cancel in their account settings.</li>
+        </ul>
+        <h3>2.2 Third-Party Services</h3>
+        <p>
+            Some services may be provided through third-party interfaces. Their actions are subject to the third parties' rules, and the Platform bears no related liability.
+        </p>
+    
+        <h2>3. User Accounts and Responsibilities</h2>
+        <h3>3.1 Registration Requirements</h3>
+        <p>
+            You are required to provide real and accurate identity information and contact details. Misusing another's identity or false registration will lead to account suspension.
+        </p>
+        <p>
+            Users are responsible for keeping their account secure. Any losses resulting from unauthorized use shall be borne solely by the user.
+        </p>
+        <h3>3.2 Account Restrictions</h3>
+        <p>
+            The use of your account for disseminating illegal information, interfering with the operation of the Platform, or infringing on others' rights is prohibited. Failure to comply may result in the Platform terminating the service.
+        </p>
+    
+        <h2>4. Transactions and Payments</h2>
+        <h3>4.1 Products and Services</h3>
+        <p>
+            When purchasing products or services, users must make payment in accordance with the prices displayed on the page. Once an order is effective, it cannot be unilaterally revoked (except as provided by law or with separate consent from the Platform).
+        </p>
+        <h3>4.2 Refund Policy</h3>
+        <p>
+            The specific refund conditions are set forth in the <a href="./refundpolicy.html">Refund Policy</a>. No refunds will be given for purchase errors caused by user mistakes.
+        </p>
+    
+        <h2>5. User Content and Intellectual Property</h2>
+        <h3>5.1 User Feedback</h3>
+        <p>
+            Any feedback, suggestions, or other submissions provided to the Platform shall be deemed as granting us permission to use, modify, and commercially exploit such content free of charge and without any additional notice or compensation.
+        </p>
+        <h3>5.2 Intellectual Property Statement</h3>
+        <p>
+            The intellectual property rights of the Platform content (including text, images, code, etc.) belong to Adminfirstly or its licensors. Unauthorized copying, reproduction, or commercial use is prohibited.
+        </p>
+    
+        <h2>6. Promotions and Activities</h2>
+        <p>
+            <strong>6.1</strong> The Platform may conduct promotions, contests, and other activities. Specific rules will be announced separately, and participation shall be considered as acceptance of the relevant terms.
+        </p>
+        <p>
+            <strong>6.2</strong> The issuance of rewards and the resolution of any disputes arising from such activities shall be subject to the Platform's interpretation. Any fraudulent behavior will result in disqualification.
+        </p>
+    
+        <h2>7. Disclaimer and Limitation of Liability</h2>
+        <p>
+            <strong>7.1</strong> The Platform shall not be held liable for service interruptions caused by system maintenance or force majeure.
+        </p>
+        <p>
+            <strong>7.2</strong> Users are advised to back up important data independently. The Platform is not responsible for any loss or leakage of data.
+        </p>
+    
+        <h2>8. Modification and Termination of the Agreement</h2>
+        <p>
+            <strong>8.1</strong> This Agreement may be updated or modified in accordance with business adjustments. Any modifications shall take effect through a Platform announcement, and continued use of the services will be deemed acceptance of the revised Agreement.
+        </p>
+        <p>
+            <strong>8.2</strong> The Platform reserves the right to terminate services due to user violations or operational requirements, and upon termination, user account privileges will be revoked.
+        </p>
+    
+        <h2>10. Contact Us</h2>
+        <p>
+            If you have any questions, please contact us using the following method:
+        </p>
+        <p>
+            <strong>Email:</strong> hello@adminfirstly.com
+        </p>
     </section>
-  
-
+      
+      <style type="text/css">
+        .terms-container { max-width: 800px; margin: 2rem auto; }
+        .effective-date { color: #666; border-bottom: 1px solid #eee; padding-bottom: 1rem; }
+        .clause { margin: 2rem 0; padding: 1.5rem; background: #f9f9f9; }
+        h2 { color: #2c3e50; font-size: 1.4rem; }
+        .highlight { color: #e74c3c; font-weight: 600; }
+        .contact-block { background: #f4f6f8; padding: 1rem; }
+      </style>
  
     <a href="#" class="back-to-top" id="scroll-top">
         <i class="far fa-angle-up"></i>
@@ -329,7 +315,7 @@ cookieconsent.run({"notice_banner_type":"interstitial","consent_type":"express",
                                 <li><a href="./privacynotice.html">Our Privacy Notice</a></li>
                                 <li>|</li>
                                 <li><a href="./refundpolicy.html">Our Refund Policy</a></li>
-                            </ul>  
+                            </ul>   
                             <p class="copyright-text m-t-20">Copyright &copy; 2025.Adminfirstly All rights reserved.</p>
                             <h4 class="m-t-20">Catch us on hello@adminfirstly.com</h4>
                         </div>
@@ -361,99 +347,7 @@ cookieconsent.run({"notice_banner_type":"interstitial","consent_type":"express",
     <!--====== Main JS ======-->
     <script src="static/js/main.js"></script>
     <script src="static/layer/layer.js"></script>
-    <script src="https://cdn.paddle.com/paddle/paddle.js"></script>
- 
-    <script>
-        var swiper = new Swiper('.swiper-container', {
-        loop: true, //循环滚动
-        speed: 2500, //滚动速度2500
-        freeMode: true,
-        autoplay: { //匀速滚动
-            delay: 0, //间隔时间0秒
-            stopOnLastSlide: false,
-            disableOnInteraction: false, //触摸后仍然执行
-        },
-        slidesPerView: 6,
     
-        spaceBetween: 50,
-        // init: false,
-    
-    
-        });
-        var vendorID = 147347;//6070;//
-        function checkoutClosed(data) {
-            console.log(data);
-            layer.msg('Your purchase has been cancelled, we hope to see you again soon!');
-        }
-
-        function checkoutComplete(data) {
-            console.log(data);
-            data.storeid= Util.get('adminfirstly_user').id;
-            $.ajax({
-                type:"POST",
-                url: "https://front.adminfirstly.com/addorder",
-                dataType: "JSON",   
-                data: data,  
-                success: function (ret) {                  
-                    console.log('ok',ret);
-                },
-                error: function (ret){
-                    console.log('err',ret);
-                }
-            });  
-            layer.msg('Thanks for your purchase,The license has been sent to the mailbox. Please check it');
-        }
-    	function openCheckout(productid) {
-            var obj = Util.get('adminfirstly_user');
-            Paddle.Checkout.open({ 
-                product: productid ,
-                email:obj.email, 
-                successCallback: checkoutComplete,
-                closeCallback: checkoutClosed
-            });
-        }
-        //Paddle.Environment.set('sandbox');
-        Paddle.Setup({ vendor: vendorID });
-       
-        $('.sel-plane').on('click',function(){
-            var obj = Util.get('adminfirstly_user');
-            var productid = $(this).attr('data-type');
-            if(obj==null){
-                window.location.href='/sign-in.html';
-            }else{
-                openCheckout(productid);
-            }
-          
-          
-        });
-        function getQuery(variable){
-            var query = window.location.search.substring(1);
-            var vars = query.split("&");
-            for (var i=0;i<vars.length;i++) {
-                    var pair = vars[i].split("=");
-                    if(pair[0] == variable){return pair[1];}
-            }
-            return(false);
-        }
-        if(getQuery('type')=='checkout'){
-            var product = getQuery('product');
-            var coupon = getQuery('coupon');
-            var email = getQuery('email');
-            var obj = {
-                product: product,
-                email:email,
-                successCallback: checkoutComplete,
-                closeCallback: checkoutClosed
-            };
-            if(coupon){
-                obj.coupon=coupon;
-            }
-            console.log(obj);
-            Paddle.Checkout.open(obj);
-        }
-    </script>
 </body>
 
 </html>
-
- 

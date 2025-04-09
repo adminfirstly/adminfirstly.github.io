@@ -179,7 +179,23 @@
 	--font-cs-medium: 'CircularStdMedium';
 	--font-cs-book: 'CircularStdBook';
 }
-
+.Policy{
+	display: block;
+}
+.Policy li{
+	display: inline-block;
+	padding-right: 3px;
+	font-size: 12px;
+ 
+}
+#open_preferences_center{
+    font-size: 12px;
+    padding: 10px;
+    padding-bottom: 0;
+}
+.footer-widgets .Policy .widget a:not(.template-btn) {
+    color: #396eff !important;
+}
 body {
 	color: var(--color-body);
 	font-family: var(--font-cs-book);
@@ -188,7 +204,22 @@ body {
 	line-height: 1.8;
 	overflow-x: hidden !important;
 }
-
+.paddle-frame.paddle-frame-overlay{
+	z-index: 2147483641 !important;
+}
+body #open_preferences_center,
+body .termsfeed-com---reset,
+body .termsfeed-com---reset *{
+	visibility:visible;
+}
+body .termsfeed-com---pc-dialog input[type=checkbox].cc-custom-checkbox {
+    position: absolute;
+    margin: 2px 0 0 16px;
+    cursor: pointer;
+    appearance: none;
+    border: 0;
+    background: transparent;
+}
 * {
 	margin: 0;
 	padding: 0;
